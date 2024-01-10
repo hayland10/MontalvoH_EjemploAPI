@@ -4,7 +4,7 @@
              x:Class="MontalvoH_EjemploAPI.Views.WeatherView"
              Title="WeatherView">
     <VerticalStackLayout Spacing="10">
-        <Label Text="CLIMA EN EL MUNDO" FontSize="28" FontFamily="SuperCarbon.ttf" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"/>
+        <Label Text="CLIMA EN EL MUNDO" FontSize="28" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"/>
         <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
             <Label Text="Latitud:" FontSize="18"/>
             <Entry x:Name="lblLatitud"/>
